@@ -1,0 +1,191 @@
+body {
+    margin: 0;
+}
+
+.wrapper {
+    font-family: cursive;
+    background-color: #9aceff;
+}
+
+main {
+    min-height: 800px;
+
+
+}
+
+main section.sectionBiography {
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+    flex-wrap: wrap;
+    background-image: url("./assets/images/soneczko.png");
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-position: right 20px top 50px;
+    background-attachment: fixed;
+    margin-bottom: 80px;
+    box-shadow: 0px 4px 5px 4px beige
+}
+
+main section .biographyBlock {
+    padding: 50px;
+    background-color: #ffffa0;
+    max-width: 550px;
+    box-shadow: 0px 0px 3px 2px #0082a0;
+}
+
+main section .biographyBlock h2 {
+    margin: 0;
+    color: #1818ff;
+    letter-spacing: 4px;
+    text-shadow: 1px 1px 2px #54ffff;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+main section .biographyBlock p {
+    text-indent: 20px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(50 145 167);
+    text-shadow: 0px 0px 1px #020e3b;
+}
+
+main section.sectionBiography .imgSobaczka {
+    height: 280px;
+}
+
+main section .block {
+    width: 100%;
+}
+
+main section.sectionEat {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    background-image: url("./assets/images/sobaczka2.png");
+    background-repeat: no-repeat;
+    background-size: 150px;
+    background-attachment: fixed;
+    background-position: left 20px top;
+    box-shadow: 0px 9px 8px 0px beige;
+    padding: 40px;
+
+}
+
+main section.sectionEat .eat {
+    width: 500px;
+    padding: 00px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: #f8fdff;
+    border-radius: 20px;
+    box-shadow: 0px 0px 4px 4px #818584;
+}
+
+main section.sectionEat .eat img {
+    height: 200px;
+}
+
+main section.sectionEat .eat .price {
+    width: 100%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+main section.sectionEat .eat .price h3 {
+    color: #007eb0;
+    font-size: 40px;
+    text-shadow: 2px 2px 1px #ba843b;
+    margin: 0;
+}
+
+main section.sectionEat .eat:nth-child(even) .price h3 {
+    color: #ffffff;
+    text-shadow: 2px 2px 1px #0e0d0d;
+}
+
+main section.sectionEat .eat .price p {
+    font-size: 40px;
+    margin: 0;
+    color: #e2d818;
+    text-shadow: 2px 2px 2px rgb(98, 101, 255);
+}
+
+main section.sectionEat .eat:nth-child(even) .price p {
+    color: #1a08e1;
+    text-shadow: 2px 2px 1px #f7f7fd;
+}
+
+main section.sectionEat .eat:nth-child(even) {
+    background-color: #d2f078;
+}
+
+main section.sectionEat button {
+    margin: 40px 0;
+    padding: 5px;
+    font-family: cursive;
+    font-size: 25px;
+    border-radius: 40px;
+    font-weight: bold;
+    width: 380px;
+    background-color: #686cdd;
+    color: white;
+    border: none;
+    text-shadow: 1px 1px 1px #30305d;
+}
+
+main section.sectionEat .eat:nth-child(even) button {
+    background-color: rgb(255, 255, 255);
+    color: #2558f1;
+}
+
+main section.sectionEat .eat:nth-child(even) button:hover {
+    background-color: rgb(250, 242, 242);
+    color: #2558f1;
+}
+
+main section.sectionEat .eat:nth-child(even) button:active {
+    background-color: rgb(228, 221, 221);
+    color: #2558f1;
+}
+
+main section.sectionEat button:hover {
+    background-color: #7277f1;
+    cursor: pointer;
+}
+
+main section.sectionEat button:active {
+    background-color: #656f8d;
+    cursor: pointer;
+}
+
+footer {
+    margin-top: 50px;
+
+    padding: 100px;
+    width: 100%;
+    height: 500px;
+    box-sizing: border-box;
+    background-image: url("./assets/images/trawa.png");
+    background-size: 100% 500px;
+    background-repeat: no-repeat;
+    background-position: left 0 bottom 0;
+}
+
+footer p {
+    text-align: right;
+    color: yellow;
+    text-shadow: 4px 4px 2px #6a72c0, 2px 2px 2px #000000;
+    font-family: cursive;
+    letter-spacing: 2px;
+    margin: 0;
+    font-size: 40px;
+}
