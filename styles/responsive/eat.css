@@ -1,0 +1,82 @@
+@media (max-width: 1020px) {
+    main section.sectionEat {
+        padding: 80px;
+    }
+
+    main section.sectionEat .eat {
+        width: 400px;
+        padding: 20px 10px;
+    }
+
+    main section.sectionEat .eat img {
+        height: 110px;
+    }
+
+    main section.sectionEat .eat .price {
+        margin-bottom: 10px;
+    }
+
+    main section.sectionEat .eat .price h3 {
+        font-size: 25px;
+    }
+
+    main section.sectionEat .eat .price p {
+        font-size: 25px;
+    }
+
+    main section.sectionEat .eat button {
+        margin: 40px 0;
+        font-size: 20px;
+        width: 100%;
+        padding-bottom: 4px;
+    }
+}
+
+@media (max-width: 750px) {
+    main section.sectionEat {
+        flex-direction: column;
+        align-items: center;
+        gap: 40px;
+        background-image: url("../../assets/images/sobaczka2.png");
+        background-position: left 0 top 10px;
+        background-size: 70px;
+        padding: 80px 5px 80px 70px;
+    }
+
+    main section.sectionEat .eat {
+        width: 180px;
+        padding: 10px 5px;
+    }
+
+    main section.sectionEat .eat img {
+        height: 60px;
+    }
+
+    main section.sectionEat .eat .price {
+        gap: 5px;
+    }
+
+    main section.sectionEat .eat .price h3 {
+        font-size: 15px;
+        text-shadow: none;
+    }
+
+    main section.sectionEat .eat:nth-child(even) .price h3 {
+        text-shadow: none;
+        color: #2121ea;
+    }
+
+    main section.sectionEat .eat:nth-child(even) .price p {
+        text-shadow: none;
+    }
+
+    main section.sectionEat .eat .price p {
+        font-size: 15px;
+        text-shadow: none;
+    }
+
+    main section.sectionEat .eat button {
+        font-size: 15px;
+        margin: 10px 0;
+    }
+}
