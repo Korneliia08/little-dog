@@ -1,0 +1,44 @@
+main section.sectionBiography {
+    padding: 50px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: start;
+    gap: 50px;
+    flex-wrap: wrap;
+    background-image: url("../assets/images/soneczko.png");
+    background-repeat: no-repeat;
+    background-size: 180px;
+    background-position: right 20px top 50px;
+    background-attachment: fixed;
+    margin-bottom: 80px;
+    box-shadow: 0px 4px 5px 4px beige
+}
+
+main section .biographyBlock {
+    padding: 50px;
+    background-color: #ffffa0;
+    max-width: 550px;
+    box-shadow: 0px 0px 3px 2px #0082a0;
+}
+
+main section .biographyBlock h2 {
+    margin: 0;
+    color: #1818ff;
+    letter-spacing: 4px;
+    text-shadow: 1px 1px 2px #54ffff;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+main section .biographyBlock p {
+    text-indent: 20px;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(50 145 167);
+    text-shadow: 0px 0px 1px #020e3b;
+}
+
+main section.sectionBiography .imgSobaczka {
+    height: 280px;
+}

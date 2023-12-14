@@ -1,11 +1,12 @@
-header {
+header{
   display: flex;
   justify-content: space-around;
   background-color: rgb(102 158 255);
-  background-image: url("./assets/images/logo.png");
+  background-image: url("../assets/images/logo.png");
   background-repeat: no-repeat;
   background-size: 40px;
   background-position: left 40px top 10px;
+  align-items: center;
 }
 
 header h1 {

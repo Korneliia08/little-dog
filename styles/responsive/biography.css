@@ -1,0 +1,67 @@
+@media (max-width: 1290px) {
+    main section.sectionBiography {
+        gap: 20px;
+        background-image: url("../../assets/images/soneczko.png");
+        background-size: 100px;
+        background-position: right 20px top 80px;
+    }
+
+    main section .biographyBlock {
+        padding: 25px;
+        max-width: 550px;
+    }
+
+    main section .biographyBlock h2 {
+        letter-spacing: 2px;
+        font-size: 25px;
+    }
+
+    main section .biographyBlock p {
+        font-size: 18px;
+    }
+
+    main section.sectionBiography .imgSobaczka {
+        height: 180px;
+    }
+}
+
+@media (max-width: 1010px) {
+    main section.sectionBiography {
+        background-position: right 20px top 80px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    main section .biographyBlock {
+        padding: 10px;
+        max-width: 550px;
+    }
+
+    main section .biographyBlock h2 {
+        letter-spacing: 0;
+        font-size: 18px;
+    }
+
+    main section .biographyBlock p {
+        font-size: 15px;
+    }
+
+    main section.sectionBiography .imgSobaczka {
+        width: 150px;
+    }
+}
+
+@media (max-width: 450px) {
+    main section.sectionBiography {
+        background-position: right 20px top 60px;
+        background-size: 60px;
+    }
+
+    main section .biographyBlock {
+        max-width: 550px;
+    }
+
+    main section .biographyBlock p {
+        font-size: 15px;
+    }
+}

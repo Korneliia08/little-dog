@@ -3,86 +3,90 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <title>ITVDN</title>
-    <link rel="stylesheet" href="./main.css">
-    <link rel="stylesheet" href="./header.css">
+    <link href="styles/main.css" rel="stylesheet">
+    <link href="styles/header.css" rel="stylesheet">
+    <link href="styles/biography.css" rel="stylesheet">
+    <link href="styles/responsive/header.css" rel="stylesheet">
+    <link href="styles/responsive/biography.css" rel="stylesheet">
 </head>
 
 <body>
-    <div class="wrapper">
+<div class="wrapper">
 
-        <header>
-            <!-- елемент 'header' являє собою контенер для вступного контенту або для набору навігаційних посилань. Може містити в собі іконку або лого, один або кілька елементів заголовка, інформацію про авторство, тощо.  В одному HTML-документі може бути кілька елементів <header> Однак <header> неможна помістити в <footer>, <address> або інший елемент <header>-->
-            <h1>Сірко</h1>
-            <nav> <!--Елемент <nav> визначає набір навігаційних посилань-->
-                <a href="#biography">Моя біографія</a>
-                <a href="#eat">Нагодуй мене</a>
-            </nav>
-        </header>
-        <main>
-            <!--Тег <main> визначає основний вміст документа. Примітка. У документі не повинно бути більше одного елемента <main>. Елемент <main> НЕ має бути нащадком елементів <article>, <aside>, <footer>, <header> або <nav>. -->
-            <section id="biography" class="sectionBiography">
-                <img src="./assets/images/sobachka.png" alt="sobaczka" class="imgSobaczka">
-                <div class="biographyBlock">
-                    <h2>Моя біографія</h2>
-                    <p>
-                        Привіт усім! Мене звати Сірко &#128522; Я ще малесеньке щенятко.... ГАВ-ГАВ!
-                        Я народився в теплих краях і дуже люблю теплі сонячні дні. Вечорами люблю собі побігати з
-                        друзями! Також люблю собі смачненьно поїсти, адже буду дуже радий,якщо мені купите дещо поїсти,
-                        гав-гав!
-                    </p>
-                </div>
-            </section>
-            <section id="eat" class="sectionEat"> <!--Елемент <section> являє собою універсальний розділ документа. Можна створювати батьківські елементи <section> з вкладеними елементами <article>, в яких є один або кілька елементів <article>.	
+    <header>
+        <!-- елемент 'header' являє собою контенер для вступного контенту або для набору навігаційних посилань. Може містити в собі іконку або лого, один або кілька елементів заголовка, інформацію про авторство, тощо.  В одному HTML-документі може бути кілька елементів <header> Однак <header> неможна помістити в <footer>, <address> або інший елемент <header>-->
+        <h1>Барс</h1>
+        <nav> <!--Елемент <nav> визначає набір навігаційних посилань-->
+            <a href="#biography">Моя біографія</a>
+            <a href="#eat">Нагодуй мене</a>
+        </nav>
+    </header>
+    <main>
+        <!--Тег <main> визначає основний вміст документа. Примітка. У документі не повинно бути більше одного елемента <main>. Елемент <main> НЕ має бути нащадком елементів <article>, <aside>, <footer>, <header> або <nav>. -->
+        <section class="sectionBiography" id="biography">
+            <img alt="sobaczka" class="imgSobaczka" src="./assets/images/sobachka.png">
+            <div class="biographyBlock">
+                <h2>Моя біографія</h2>
+                <p>
+                    Привіт усім! Мене звати Барс &#128522; Я ще малесеньке щенятко.... ГАВ-ГАВ!
+                    Я народився в теплих краях і дуже люблю теплі сонячні дні. Вечорами люблю собі побігати з
+                    друзями! Також люблю собі смачненьно поїсти, адже буду дуже радий,якщо мені купите дещо поїсти,
+                    гав-гав!
+                </p>
+            </div>
+        </section>
+        <section class="sectionEat" id="eat"> <!--Елемент <section> являє собою універсальний розділ документа. Можна створювати батьківські елементи <section> з вкладеними елементами <article>, в яких є один або кілька елементів <article>.
                 HTML тег <section> допускається вкладати в самого себе.-->
 
-                <div class="eat">
-                    <div class="price">
-                        <h3>Молочко</h3>
-                        <p>20 <sup> &#36;</sup></p>
-                    </div>
-                    <img src="./assets/images/milk.png" alt="milk">
-                    <button>Купити</button>
+            <div class="eat">
+                <div class="price">
+                    <h3>Молочко</h3>
+                    <p>20 <sup> &#36;</sup></p>
                 </div>
+                <img alt="milk" src="./assets/images/milk.png">
+                <button>Купити</button>
+            </div>
 
-                <div class="eat">
-                    <div class="price">
-                        <h3>Шалена ковбаска</h3>
-                        <p>40 <sup> &#36;</sup></p>
-                    </div>
-                    <img src="./assets/images/eat.png" alt="eat">
-                    <button>Купити</button>
-
+            <div class="eat">
+                <div class="price">
+                    <h3>Шалена ковбаска</h3>
+                    <p>40 <sup> &#36;</sup></p>
                 </div>
-                <div class="eat">
-                    <div class="price">
-                        <h3>Сік</h3>
-                        <p>50 <sup> &#36;</sup></p>
-                    </div>
-                    <img src="./assets/images/juice.png" alt="juice">
-                    <button>Купити</button>
-                </div>
+                <img alt="eat" src="./assets/images/eat.png">
+                <button>Купити</button>
 
-                <div class="eat">
-                    <div class="price">
-                        <h3>Курочка</h3>
-                        <p>80 <sup> &#36;</sup></p>
-                    </div> <img src="./assets/images/eat2.png" alt="eat2">
-                    <button>Купити</button>
+            </div>
+            <div class="eat">
+                <div class="price">
+                    <h3>Сік</h3>
+                    <p>50 <sup> &#36;</sup></p>
                 </div>
+                <img alt="juice" src="./assets/images/juice.png">
+                <button>Купити</button>
+            </div>
 
-            </section>
-        </main>
-        <footer> <!--Елемент <footer> зазвичай містить:інформацію про авторські права,
+            <div class="eat">
+                <div class="price">
+                    <h3>Курочка</h3>
+                    <p>80 <sup> &#36;</sup></p>
+                </div>
+                <img alt="eat2" src="./assets/images/eat2.png">
+                <button>Купити</button>
+            </div>
+
+        </section>
+    </main>
+    <footer> <!--Елемент <footer> зазвичай містить:інформацію про авторські права,
             контактну інформацію,
             мапу сайта,
             посилання повернення вгору,
             пов’язані документи-->
-            <p> &copy; Корнелія</p>
-        </footer>
+        <p> &copy; Корнелія</p>
+    </footer>
 
-    </div>
+</div>
 </body>
 
 </html>

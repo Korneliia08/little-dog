@@ -1,0 +1,24 @@
+@media (max-width: 850px) {
+    header h1 {
+        font-size: 20px;
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 600px) {
+    header {
+        background-size: 18px;
+        background-position: left 5px top 4px;
+    }
+
+    header h1 {
+        font-size: 16px;
+        margin-left: 20px;
+    }
+
+    header nav a {
+        padding: 20px 10px;
+        font-size: 12px;
+    }
+}
+
