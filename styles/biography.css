@@ -27,6 +27,7 @@ main section .biographyBlock h2 {
     letter-spacing: 4px;
     text-shadow: 1px 1px 2px #54ffff;
     font-weight: bold;
+    font-family: Montserrat, cursive;
     font-size: 35px;
 }
 
@@ -37,7 +38,9 @@ main section .biographyBlock p {
     font-weight: bold;
     color: rgb(50 145 167);
     text-shadow: 0px 0px 1px #020e3b;
+    font-family: Montserrat, cursive;
 }
+
 
 main section.sectionBiography .imgSobaczka {
     height: 280px;

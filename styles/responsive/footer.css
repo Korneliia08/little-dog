@@ -1,13 +1,5 @@
 @media (max-width: 800px) {
-    footer {
-        margin-top: 20px;
-        padding: 80px;
-        height: 300px;
-        background-size: 100% 500px;
-    }
-
     footer p {
-        font-size: 20px;
+        font-size: 15px;
     }
-
 }

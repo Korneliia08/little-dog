@@ -14,3 +14,9 @@ main {
 main section .block {
     width: 100%;
 }
+
+@font-face {
+    font-family: Montserrat;
+    src: url("../assets/fonts/static/Montserrat-Regular.ttf");
+}
+

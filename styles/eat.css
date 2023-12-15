@@ -22,6 +22,7 @@ main section.sectionEat .eat {
     background-color: #f8fdff;
     border-radius: 20px;
     box-shadow: 0px 0px 4px 4px #818584;
+    padding: 20px 10px;
 }
 
 main section.sectionEat .eat img {
@@ -40,27 +41,32 @@ main section.sectionEat .eat .price h3 {
     font-size: 40px;
     text-shadow: 2px 2px 1px #ba843b;
     margin: 0;
+    font-family: Montserrat, cursive;
 }
 
 main section.sectionEat .eat:nth-child(even) .price h3 {
     color: #ffffff;
     text-shadow: 2px 2px 1px #0e0d0d;
+    font-family: Montserrat, cursive;
 }
 
 main section.sectionEat .eat .price p {
     font-size: 40px;
     margin: 0;
     color: #e2d818;
+    font-family: Montserrat, cursive;
     text-shadow: 2px 2px 2px rgb(98, 101, 255);
 }
 
 main section.sectionEat .eat:nth-child(even) .price p {
     color: #1a08e1;
     text-shadow: 2px 2px 1px #f7f7fd;
+    font-family: Montserrat, cursive;
 }
 
 main section.sectionEat .eat:nth-child(even) {
     background-color: #d2f078;
+    font-family: Montserrat, cursive;
 }
 
 main section.sectionEat .eat button {
@@ -68,7 +74,7 @@ main section.sectionEat .eat button {
     align-items: center;
     justify-content: center;
     margin: 40px 0;
-    font-family: cursive;
+    font-family: Montserrat, cursive;
     font-size: 25px;
     border-radius: 40px;
     font-weight: bold;
@@ -82,11 +88,13 @@ main section.sectionEat .eat button {
 main section.sectionEat .eat:nth-child(even) button {
     background-color: rgb(255, 255, 255);
     color: #2558f1;
+    font-family: Montserrat, cursive;
 }
 
 main section.sectionEat .eat:nth-child(even) button:hover {
     background-color: rgb(250, 242, 242);
     color: #2558f1;
+    transition: 700ms;
 }
 
 main section.sectionEat .eat:nth-child(even) button:active {
